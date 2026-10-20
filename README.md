@@ -1,38 +1,71 @@
-# Hi, I'm Yuan Yiqi (袁艺琪)
+# Hi, I'm **Yuan Yiqi** · 袁艺琪
 
-Tianjin University · Chinese Language & Literature (B.A., Class of 2027)  
-Heading toward **Data Science / Social Data** pathways (DSBS / SDA) · IELTS **7.0**
+<p>
+  <a href="https://annakareninaof17.pages.dev/"><img src="https://img.shields.io/badge/Demo-Anna_Karenina-8B1E3F?style=flat-square" alt="Anna" /></a>
+  <a href="https://2711editor.pages.dev"><img src="https://img.shields.io/badge/Demo-2711_Editor-2F5D50?style=flat-square" alt="2711" /></a>
+  <a href="https://leping-stages-map.pages.dev/"><img src="https://img.shields.io/badge/Demo-Leping_Map-C4A35A?style=flat-square" alt="Leping" /></a>
+  <img src="https://img.shields.io/badge/IELTS-7.0-1F4E79?style=flat-square" alt="IELTS" />
+  <img src="https://img.shields.io/badge/GPA-3.74%2F4.0-444?style=flat-square" alt="GPA" />
+</p>
 
-人文文本 × 数据方法 × 可访问的 AI Demo。I build small, honest products that turn literature, fieldwork, and language data into interactive tools.
+**Tianjin University** · B.A. in Chinese Language & Literature (Class of 2027)  
+Building toward **Data Science / Social Data** (CUHK DSBS · HKU SDA · related BA tracks)
 
----
+I turn literature, fieldwork, and language corpora into **small, inspectable AI + data tools** — with real demos, not slideware.
 
-## Featured work
-
-| Project | What it is | Link |
-|--------|------------|------|
-| **Anna Karenina Literary Guide** | Interactive literary guide + 7-character AI dialogue (prompt constraints: 40–90 chars, last 10 turns) | [annakareninaof17.pages.dev](https://annakareninaof17.pages.dev/) |
-| **2711 Editor** | Novel → branching visual-novel pipeline (`smart_truncate` · `BIBLE_INPUT_CHARS` · `scene_match`) | [2711editor.pages.dev](https://2711editor.pages.dev) · repo [`2711-editor`](https://github.com/yuanyiqi422-byte/2711-editor) |
-| **Leping Ancient Stages Map** | Fieldwork digital map of Leping opera stages (exportable JSON/CSV from `stages.json`) | [leping-stages-map.pages.dev](https://leping-stages-map.pages.dev/) |
-| **Reduplicated Adjectives (thesis)** | Sentiment polarity shift (Δ) for AABB/ABB forms — research figures for portfolio | Thesis charts (Fig.9 Δ heterogeneity · Fig.10 group contrast) |
-| **Foreign Literature Review** | Gamified fragment review web app for exam prep | [waiguo-wenxue-review.pages.dev](https://waiguo-wenxue-review.pages.dev) |
-| **语韵津河 (WeChat)** | National undergrad innovation project — canal language landscape & heritage outreach | Search WeChat: 语韵津河 |
+📧 **yuanyiqi0422@163.com** · 🌐 [github.com/yuanyiqi422-byte](https://github.com/yuanyiqi422-byte)
 
 ---
 
-## Stack I actually use
+## Featured projects
 
-`JavaScript` · `Python` · `FastAPI` · LLM API / Prompt design · Cloudflare Pages · scraping & corpus cleanup · basic GIS / map UI (Leaflet / AMap) · Markdown / static sites
+### 1. Anna Karenina · AI Literary Guide
+Interactive guide with **RAG-style reading help** and **7 persona agents** (sliding context: last **10** turns; reply length **40–90** characters).  
+Live site includes a **System Architecture & Prompt Design** panel for context engineering.
+
+- Demo: https://annakareninaof17.pages.dev/
+
+### 2. 2711 Editor · Novel → Branching VN
+Upload long text → story bible → outline → playable scenes. Long inputs use **`smart_truncate`** / **`BIBLE_INPUT_CHARS`**; backgrounds via rule + tag **`scene_match`** (not a fake map-reduce engine).
+
+- Demo: https://2711editor.pages.dev  
+- Repo: [2711-editor](https://github.com/yuanyiqi422-byte/2711-editor)
+
+### 3. Leping Ancient Stages · Digital Map
+**28** mapped stages from **400+** heritage sites · **103** sources · Amap / Leaflet fallback · **Export JSON / CSV** from cleaned `stages.json`.
+
+- Demo: https://leping-stages-map.pages.dev/
+
+### 4. Reduplicated Adjectives · Sentiment Shift (Thesis)
+Corpus evaluation of base vs AABB/ABB forms with LLM scoring + human reliability + Welch *t*. Portfolio charts: **Δ heterogeneity (Fig.9)** and **AABB vs ABB group contrast (Fig.10)**.
+
+- Local portfolio pack: `叠词情感分析/portfolio/` (figures + captions)
+
+### 5. More
+| Project | Note | Link |
+|--------|------|------|
+| Foreign Literature Review | Gamified quiz / review site | [waiguo-wenxue-review.pages.dev](https://waiguo-wenxue-review.pages.dev) |
+| 语韵津河 | National undergrad innovation · canal language landscape | WeChat: 语韵津河 |
 
 ---
 
-## Contact
+## What I work with
 
-- Email: **yuanyiqi0422@163.com**
-- GitHub: [yuanyiqi422-byte](https://github.com/yuanyiqi422-byte)
+```text
+Python · FastAPI · Pandas / NumPy / SciPy
+Prompt engineering · RAG / multi-agent dialogue
+Corpus crawl · clean · annotate · evaluate
+JS · Cloudflare Pages · Netlify Functions
+Leaflet / AMap · Git
+```
 
 ---
 
-### 中文简介
+## 中文
 
-天津大学汉语言文学在读，规划数据 / 社会数据方向。做过可访问的文学 AI 导读与互动阅读生成工具，也把家乡古戏台田野资料做成数字地图；另有叠词情感偏移学年论文与大创“语韵津河”公众号运营。欢迎邮件联系。
+天津大学汉语言文学在读（预计 2027 届），方向偏向数据科学 / 社会数据分析。  
+做过可访问的文学 AI 导读、长文互动阅读生成工具、乐平古戏台数字地图；另有叠词情感偏移学年论文与大创「语韵津河」。欢迎邮件联系。
+
+---
+
+⭐ If a demo helps your review, start with **Anna** or **2711** — both are clickable end-to-end.
