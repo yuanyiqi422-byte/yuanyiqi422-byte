@@ -26,7 +26,7 @@ Live site includes a **System Architecture & Prompt Design** panel for context e
 - Demo: https://annakareninaof17.pages.dev/
 
 ### 2. 2711 Editor · Novel → Branching VN
-Upload long text → story bible → outline → playable branching narrative. Implements **smart truncation** & **chapter-aware sampling** (FastAPI backend) to optimize the LLM context window efficiently. Backgrounds via rule + tag **`scene_match`**.
+Upload long text → story bible → outline → playable branching narrative. Implements smart truncation & chapter-aware sampling (FastAPI backend) to optimize LLM context window efficiently.
 
 - Demo: https://2711editor.pages.dev  
 - Repo: [2711-editor](https://github.com/yuanyiqi422-byte/2711-editor)
@@ -37,25 +37,54 @@ Upload long text → story bible → outline → playable branching narrative. I
 - Demo: https://leping-stages-map.pages.dev/
 
 ### 4. Reduplicated Adjectives · Sentiment Shift (Thesis)
-Corpus evaluation of base vs. AABB/ABB forms using LLM scoring + human reliability verification + Welch's *t*-test (*t* = 2.49, *p* = 0.013) on **14,987** paired Weibo entries (DeepSeek-V3).
+Corpus study of base vs AABB/ABB adjective forms on **14,987** Weibo sentences (22 pairs: 11 AABB + 11 ABB), scored with **DeepSeek-V3** (1–5) and checked against human labels (**97.11%** exact agreement on 1,486 stratified samples). Full-corpus **Welch's t-test**: t ≈ 2.49, p ≈ 0.013. Pair-level Δ ∈ [-0.66, +0.74].
 
-- **Key findings:** Δ heterogeneity across **22** word-pairs (Δ ∈ [−0.66, +0.74]) with **97.11%** human–machine agreement on polarity labels.
-- Charts (thesis Fig.9 / Fig.10):
+**Key findings (figures)**
 
-<p>
-  <img src="./assets/fig09_delta_heterogeneity.png" alt="Fig.9 Δ heterogeneity across 22 pairs" width="48%" />
-  <img src="./assets/fig10_aabb_abb_group_comparison.png" alt="Fig.10 AABB vs ABB group contrast" width="48%" />
+| Fig. | Content |
+|------|---------|
+| 9 | Δ heterogeneity across 22 pairs |
+| 10 | AABB vs ABB group contrast (n=11 each) |
+
+<p align="center">
+  <img src="./assets/fig09_delta_heterogeneity.png" alt="Fig.9 Delta heterogeneity across 22 pairs" width="720" />
 </p>
+<p align="center"><em>Fig.9 — Sentiment polarity shift (Δ) across 22 reduplicated adjective pairs</em></p>
+
+<p align="center">
+  <img src="./assets/fig10_aabb_abb_group_comparison.png" alt="Fig.10 AABB vs ABB group comparison" width="560" />
+</p>
+<p align="center"><em>Fig.10 — AABB vs ABB group comparison of pair-level mean Δ</em></p>
+
+Thesis available upon request.
 
 ### 5. More
-
-| Project | What | Link |
+| Project | Note | Link |
 |--------|------|------|
 | Foreign Literature Review | Gamified quiz / review site | [waiguo-wenxue-review.pages.dev](https://waiguo-wenxue-review.pages.dev) |
-| 语韵津河 | National Undergraduate Innovation Program: multimodal canal language landscape & knowledge graph (**1,182** structured corpus entries; **128** field samples). WeChat: 语韵津河 | Outreach via WeChat official account |
+| 语韵津河 | **National Undergraduate Innovation Program** · multimodal canal language landscape & knowledge graph · **1,182** structured corpus (+128 field samples) | WeChat: 语韵津河 |
 
 ---
 
-## Stack I actually use
+## What I work with
 
-`JavaScript` · `Python` · `FastAPI` · LLM API / Prompt design · Cloudflare Pages · corpus cleanup · Leaflet / AMap · Markdown / static sites
+```text
+Python · FastAPI · Pandas / NumPy / SciPy
+Prompt engineering · RAG / multi-agent dialogue
+Corpus crawl · clean · annotate · evaluate
+JS · Cloudflare Pages · Netlify Functions
+Leaflet / AMap · Git
+```
+
+---
+
+<details>
+<summary>中文</summary>
+
+天津大学汉语言文学在读（2027 届），方向数据科学 / 社会数据。文学 AI 导读、互动阅读生成、古戏台数字地图；叠词情感评测与大创语韵津河。邮件联系。
+
+</details>
+
+---
+
+⭐ If a demo helps your review, start with **Anna** or **2711** — both are clickable end-to-end.
