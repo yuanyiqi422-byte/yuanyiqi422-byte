@@ -39,12 +39,7 @@ Upload long text → story bible → outline → playable branching narrative. I
 ### 4. Reduplicated Adjectives · Sentiment Shift (Thesis)
 Corpus study of base vs AABB/ABB adjective forms on **14,987** Weibo sentences (22 pairs: 11 AABB + 11 ABB), scored with **DeepSeek-V3** (1–5) and checked against human labels (**97.11%** exact agreement on 1,486 stratified samples). Full-corpus **Welch's t-test**: t ≈ 2.49, p ≈ 0.013. Pair-level Δ ∈ [-0.66, +0.74].
 
-**Key findings (figures)**
-
-| Fig. | Content |
-|------|---------|
-| 9 | Δ heterogeneity across 22 pairs |
-| 10 | AABB vs ABB group contrast (n=11 each) |
+- **Key Figures**: Delta heterogeneity and contrast maps (Thesis research available upon request).
 
 <p align="center">
   <img src="./assets/fig09_delta_heterogeneity.png" alt="Fig.9 Delta heterogeneity across 22 pairs" width="720" />
@@ -56,13 +51,11 @@ Corpus study of base vs AABB/ABB adjective forms on **14,987** Weibo sentences (
 </p>
 <p align="center"><em>Fig.10 — AABB vs ABB group comparison of pair-level mean Δ</em></p>
 
-Thesis available upon request.
-
 ### 5. More
 | Project | Note | Link |
 |--------|------|------|
 | Foreign Literature Review | Gamified quiz / review site | [waiguo-wenxue-review.pages.dev](https://waiguo-wenxue-review.pages.dev) |
-| 语韵津河 | **National Undergraduate Innovation Program** · multimodal canal language landscape & knowledge graph · **1,182** structured corpus (+128 field samples) | WeChat: 语韵津河 |
+| 语韵津河 | **National Undergraduate Innovation Program** · multimodal canal language landscape & knowledge graph · **1,182** structured corpus (+128 field samples) | WeChat: 语韵津河 (National Undergraduate Innovation Program, using NLP-based analysis & GIS maps) |
 
 ---
 
