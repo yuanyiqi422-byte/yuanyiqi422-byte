@@ -26,7 +26,7 @@ Live site includes a **System Architecture & Prompt Design** panel for context e
 - Demo: https://annakareninaof17.pages.dev/
 
 ### 2. 2711 Editor · Novel → Branching VN
-Upload long text → story bible → outline → playable scenes. Long inputs use **`smart_truncate`** / **`BIBLE_INPUT_CHARS`**; backgrounds via rule + tag **`scene_match`** (not a fake map-reduce engine).
+Upload long text → story bible → outline → playable branching narrative. Implements **smart truncation** & **chapter-aware sampling** (FastAPI backend) to optimize the LLM context window efficiently. Backgrounds via rule + tag **`scene_match`**.
 
 - Demo: https://2711editor.pages.dev  
 - Repo: [2711-editor](https://github.com/yuanyiqi422-byte/2711-editor)
@@ -37,35 +37,25 @@ Upload long text → story bible → outline → playable scenes. Long inputs us
 - Demo: https://leping-stages-map.pages.dev/
 
 ### 4. Reduplicated Adjectives · Sentiment Shift (Thesis)
-Corpus evaluation of base vs AABB/ABB forms with LLM scoring + human reliability + Welch *t*. Portfolio charts: **Δ heterogeneity (Fig.9)** and **AABB vs ABB group contrast (Fig.10)**.
+Corpus evaluation of base vs. AABB/ABB forms using LLM scoring + human reliability verification + Welch's *t*-test (*t* = 2.49, *p* = 0.013) on **14,987** paired Weibo entries (DeepSeek-V3).
 
-- Local portfolio pack: `叠词情感分析/portfolio/` (figures + captions)
+- **Key findings:** Δ heterogeneity across **22** word-pairs (Δ ∈ [−0.66, +0.74]) with **97.11%** human–machine agreement on polarity labels.
+- Charts (thesis Fig.9 / Fig.10):
+
+<p>
+  <img src="./assets/fig09_delta_heterogeneity.png" alt="Fig.9 Δ heterogeneity across 22 pairs" width="48%" />
+  <img src="./assets/fig10_aabb_abb_group_comparison.png" alt="Fig.10 AABB vs ABB group contrast" width="48%" />
+</p>
 
 ### 5. More
-| Project | Note | Link |
+
+| Project | What | Link |
 |--------|------|------|
 | Foreign Literature Review | Gamified quiz / review site | [waiguo-wenxue-review.pages.dev](https://waiguo-wenxue-review.pages.dev) |
-| 语韵津河 | National undergrad innovation · canal language landscape | WeChat: 语韵津河 |
+| 语韵津河 | National Undergraduate Innovation Program: multimodal canal language landscape & knowledge graph (**1,182** structured corpus entries; **128** field samples). WeChat: 语韵津河 | Outreach via WeChat official account |
 
 ---
 
-## What I work with
+## Stack I actually use
 
-```text
-Python · FastAPI · Pandas / NumPy / SciPy
-Prompt engineering · RAG / multi-agent dialogue
-Corpus crawl · clean · annotate · evaluate
-JS · Cloudflare Pages · Netlify Functions
-Leaflet / AMap · Git
-```
-
----
-
-## 中文
-
-天津大学汉语言文学在读（预计 2027 届），方向偏向数据科学 / 社会数据分析。  
-做过可访问的文学 AI 导读、长文互动阅读生成工具、乐平古戏台数字地图；另有叠词情感偏移学年论文与大创「语韵津河」。欢迎邮件联系。
-
----
-
-⭐ If a demo helps your review, start with **Anna** or **2711** — both are clickable end-to-end.
+`JavaScript` · `Python` · `FastAPI` · LLM API / Prompt design · Cloudflare Pages · corpus cleanup · Leaflet / AMap · Markdown / static sites
