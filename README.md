@@ -9,7 +9,7 @@
 </p>
 
 **Tianjin University** · B.A. in Chinese Language & Literature (Class of 2027)  
-Building toward **Data Science / Social Data** (CUHK DSBS · HKU SDA · related BA tracks)
+**Incoming Graduate Applicant in Data Science, Business Statistics & Social Computing**
 
 I turn literature, fieldwork, and language corpora into **small, inspectable AI + data tools** — with real demos, not slideware.
 
@@ -37,7 +37,7 @@ Upload long text → story bible → outline → playable branching narrative. I
 - Demo: https://leping-stages-map.pages.dev/
 
 ### 4. Reduplicated Adjectives · Sentiment Shift (Thesis)
-Corpus study of base vs AABB/ABB adjective forms on **14,987** Weibo sentences (22 pairs: 11 AABB + 11 ABB), with LLM scoring + human reliability + Welch's t-test. DeepSeek-V3 (1–5) scores checked against human labels (**97.11%** exact agreement on 1,486 stratified samples); pair-level Δ ∈ [-0.66, +0.74]. Group-level shift: t = 2.49, p = 0.013.
+Corpus study of base vs AABB/ABB adjective forms on **14,987** Weibo sentences (22 pairs: 11 AABB + 11 ABB), with LLM scoring + human reliability + Welch's t-test. DeepSeek-V3 (1–5) scores checked against human labels (**97.11%** exact agreement on 1,486 stratified samples); pair-level Δ ∈ [-0.66, +0.74]. Overall (n = 14,987): Welch's t = 2.49, p = 0.013, |d| ≈ 0.04 (negligible overall difference); AABB/ABB group-level shifts non-significant.
 
 - **Key Figures**: Delta heterogeneity and contrast maps (Thesis research available upon request).
 
@@ -55,7 +55,7 @@ Corpus study of base vs AABB/ABB adjective forms on **14,987** Weibo sentences (
 | Project | Note | Link |
 |--------|------|------|
 | Foreign Literature Review | Gamified quiz / review site | [waiguo-wenxue-review.pages.dev](https://waiguo-wenxue-review.pages.dev) |
-| 语韵津河 | **National Undergraduate Innovation Program** · multimodal canal language landscape & knowledge graph · **1,182** structured corpus entries (+128 field samples) | WeChat: 语韵津河 (NLP-based analysis & GIS maps) |
+| 语韵津河 | **National Undergraduate Innovation and Entrepreneurship Training Program** · multimodal canal language landscape & knowledge graph · **1,182** structured corpus entries (+128 field samples) | WeChat: 语韵津河 (NLP-based analysis & GIS maps) |
 
 ---
 
@@ -74,7 +74,7 @@ Leaflet / AMap · Git
 <details>
 <summary>中文</summary>
 
-天津大学汉语言文学在读（2027 届），方向数据科学 / 社会数据。文学 AI 导读、互动阅读生成、古戏台数字地图；叠词情感评测与大创语韵津河。邮件联系。
+天津大学汉语言文学在读（2027 届）。拟申请方向：Data Science / Business Statistics / Social Computing。文学 AI 导读、互动阅读生成、古戏台数字地图；叠词情感评测与大创语韵津河。邮件联系。
 
 </details>
 
