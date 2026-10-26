@@ -14,7 +14,7 @@
 I turn literature, fieldwork, and language corpora into **small, inspectable AI + data tools** — with real demos, not slideware.  
 DSBS-facing pipeline: **corpus construction → statistical testing → LLM evaluation → productised demos**.
 
-📧 **yuanyiqi0422@163.com** · 🌐 [github.com/yuanyiqi422-byte](https://github.com/yuanyiqi422-byte)
+📧 **3251224718@qq.com** · 🌐 [github.com/yuanyiqi422-byte](https://github.com/yuanyiqi422-byte)
 
 ---
 
